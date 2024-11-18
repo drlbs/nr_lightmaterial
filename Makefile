@@ -2,7 +2,7 @@
 CC	= gcc
 TARGETS = lightmaterial
 LDLIBS = -lglut -lGLU -lGL -lm
-CFLAGS = -O2 
+CFLAGS = -O2 -std=c90 
 
 
 lightmaterial	:  lightmaterial.o glm.o 
